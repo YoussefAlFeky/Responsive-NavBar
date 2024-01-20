@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Resposive Navigation APP</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <ul>
+           
+            <li><a href="#">JOEDZELLA</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">services</a></li>
+            <li class="hideOnMobile"><a href="#">Products</a></li>
+            <li class="hideOnMobile"><a href="#">Login</a></li>
+            <li class="menu-button" onclick="showSidebar()"> <i class="fa-solid fa-bars" ></i></li>
+         
+        </ul>
+    </nav>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
